@@ -1,0 +1,49 @@
+html{
+    background-color: #1a1b26;
+    color: white;
+}
+@font-face {
+    font-family: minlo;
+    font-weight: normal;
+    src: url(/fonts/Minlo-Regular.woff2);
+}
+
+    .main-container{
+        margin: 4rem;
+    }
+
+        #header-profile{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            border-radius: 30%;
+            height: 8rem;
+        }
+        .header-name{
+            color: #e3e3e3;
+            font-weight: bold;
+            font-size: 4rem;
+            font-family: "SF Pro Display", Sans-Serif;
+            padding-top: 1rem;
+        }
+        .header-description{
+            color: #bababa;
+            font-weight:bolder;
+            font-size: 1.75rem;
+            font-family: JetBrains Mono; 
+        }
+
+
+.body{
+    margin-top: 2rem;
+}
+        a{
+            color: #5865f2;
+            background-color: transparent;
+            font-size: 1rem;
+            font-family: Helvetica;
+            height: 2rem;
+            width: 7rem;
+            cursor:pointer;
+            text-decoration: none;
+        }
