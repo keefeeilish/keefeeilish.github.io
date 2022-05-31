@@ -51,7 +51,10 @@ html{
             border-radius: 8px;
             background-color: #171722;
             padding: 8px;
+            margin-top: 10px;
+            margin-left: 0px;
             margin-right: 10px;
+            display: inline-block;
         }
             .links-image{
                 height: 15px;
