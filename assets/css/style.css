@@ -23,14 +23,14 @@ html{
             color: #e3e3e3;
             font-weight: bold;
             font-size: 4rem;
-            font-family: "SF Pro Display", Sans-Serif;
+            font-family: "SF Pro Display", Helvetica, sans-serif;
             padding-top: 1rem;
         }
         .header-description{
             color: #bababa;
             font-weight:bolder;
             font-size: 1.75rem;
-            font-family: JetBrains Mono; 
+            font-family: "JetBrains Mono", monospace; 
         }
 
 
@@ -47,3 +47,12 @@ html{
             cursor:pointer;
             text-decoration: none;
         }
+        .links{
+            border-radius: 8px;
+            background-color: #171722;
+            padding: 8px;
+            margin-right: 10px;
+        }
+            .links-image{
+                height: 15px;
+            }
