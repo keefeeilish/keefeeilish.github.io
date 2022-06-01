@@ -1,16 +1,31 @@
+
 html{
     background-color: #1a1b26;
-    color: white;
-}
-@font-face {
-    font-family: minlo;
-    font-weight: normal;
-    src: url(/fonts/Minlo-Regular.woff2);
+    font-family: Helvetica;
 }
 
-    .main-container{
-        margin: 4rem;
-    }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 50px;
+    background: #171722;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5865f2;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #373f99;
+  }
+  
 
         #header-profile{
             display: flex;
@@ -36,16 +51,30 @@ html{
 .body{
     margin-top: 2rem;
 }
-        a{
-            color: #5865f2;
-            background-color: transparent;
-            font-size: 1rem;
-            font-family: Helvetica;
-            height: 2rem;
-            width: 7rem;
-            cursor:pointer;
-            text-decoration: none;
-        }
+.headings{
+    color: #e3e3e3;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "JetBrains Mono", Helvetica, sans-serif;
+}
+.body-text{
+    color: #bababa;
+}
+
+.redirect{
+    height: 12px;
+}
+
+a{
+    color: #5865f2;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: Helvetica;
+    height: 2rem;
+    width: 7rem;
+    cursor:pointer;
+    text-decoration: none;
+}
         .links{
             border-radius: 8px;
             background-color: #171722;
@@ -58,3 +87,42 @@ html{
             .links-image{
                 height: 15px;
             }
+        .about-me{
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #171722;
+            margin-top: 20px;
+        }
+        @media only screen and (min-width: 800px){
+            .about-me{
+                margin-right: 200px;
+            }
+        }
+        @media only screen and (max-width: 800px) and (min-width: 700px){
+            .about-me{
+                margin-right: 100px;
+            }
+        }
+        @media only screen and (max-width: 700px) and (min-width: 600px){
+            .about-me{
+                margin-right: 40px;
+            }
+        }
+            .body-text{
+                margin-top: 10px;
+            }
+        @media only screen and (min-width: 600px){
+            .main-container{
+                margin: 4rem;
+            }
+        }
+        @media only screen and (max-width: 600px){
+            .main-container{
+                margin: 2rem;
+            }
+        }
+        @media only screen and (max-width: 300px){
+            .main-container{
+                margin: 1rem;
+            }
+        }
