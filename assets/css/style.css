@@ -32,12 +32,12 @@ html{
             align-items: center;
             flex-wrap: wrap;
             border-radius: 30%;
-            height: 8rem;
+            height: 12rem;
         }
         .header-name{
             color: #e3e3e3;
             font-weight: bold;
-            font-size: 3.5rem;
+            font-size: 3rem;
             font-family: Helvetica, sans-serif;
             padding-top: 1rem;
         }
