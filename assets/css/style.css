@@ -37,13 +37,13 @@ html{
         .header-name{
             color: #e3e3e3;
             font-weight: bold;
-            font-size: 4rem;
+            font-size: 3.5rem;
             font-family: Helvetica, sans-serif;
             padding-top: 1rem;
         }
         .header-description{
             color: #bababa;
-            font-size: 1.75rem;
+            font-size: 1.5rem;
             font-family: "JetBrains Mono", monospace; 
         }
 
